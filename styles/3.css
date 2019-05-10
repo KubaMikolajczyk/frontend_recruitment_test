@@ -47,16 +47,21 @@ form input {
     outline: none;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
     border: 1px solid #ccc;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 form #filterBtn {
-    border-radius: 8px;
-    padding: 10px;
-    outline: none;
-    background-color: #f4f4f4;
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
-    transition: .3s;
+    background-color: #e8581f;
+    text-transform: uppercase;
+    outline:none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px -2px rgba(105,105,105,0.85);
+    transition: .2s;
 }
 
 form #filterBtn:hover {
