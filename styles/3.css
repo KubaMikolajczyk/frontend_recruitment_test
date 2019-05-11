@@ -62,11 +62,12 @@ form #filterBtn {
     border-radius: 5px;
     box-shadow: 1px 4px 8px -2px rgba(105,105,105,0.85);
     transition: .2s;
+    cursor: pointer;
 }
 
 form #filterBtn:hover {
     background-color: #e8581f;
-    transform: scale(1.2);
+    transform: scale(1.1);
     border: none;
     
     
