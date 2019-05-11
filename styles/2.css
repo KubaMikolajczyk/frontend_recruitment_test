@@ -23,7 +23,7 @@ html, body {
     /*  flex container  */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     
 }
 
@@ -41,6 +41,7 @@ html, body {
     border-radius: 5px;
     box-shadow: 1px 4px 8px -2px rgba(105,105,105,0.85);
     transition: .2s;
+    margin-top: 10%;
 }
 
 #modalBtn:hover {
